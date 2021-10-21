@@ -1,0 +1,1130 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES check */
+:root {
+  --main-bg-color: #fbfaff;
+  --main-color: #f09279;
+  --scondary-color: #3d819d;
+  --font-color: #707070;
+}
+
+/* GENERAL RULES */
+.page {
+  display: none;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  color: var(--font-color);
+  font-size: 16px;
+}
+
+.btn {
+  background-color: var(--main-color);
+  color: #fff;
+  width: 302px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.onboarding-btn {
+  width: 144px;
+}
+
+.back-home {
+  text-decoration: none;
+}
+
+/* section {
+  height: 100vh;
+} */
+
+/* MENU STYLING */
+.main-menu {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #fff;
+  padding: 16px;
+}
+
+.main-menu .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-menu a {
+  color: var(--scondary-color);
+  cursor: pointer;
+}
+
+.main-menu .menu .fas {
+  font-size: 28px;
+}
+
+/* .main-menu .menu .fa-home {
+  color: var(--main-color);
+} */
+
+.main-menu a {
+  text-decoration: none;
+}
+
+.main-menu a.active {
+  background-color: #fff;
+  color: var(--main-color);
+}
+
+/* WELCOME SCREE STYLING */
+#welcome-screen {
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcome-screen h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* ONBOARDINGS STYLING */
+#onboarding-two .container .left-arrow,
+#onboarding-three .container .left-arrow {
+  align-self: flex-start;
+}
+
+#onboarding-one .container,
+#onboarding-two .container,
+#onboarding-three .container {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#onboarding-one .container .onboarding-one-text,
+#onboarding-two .container .onboarding-two-text,
+#onboarding-three .container .onboarding-three-text {
+  text-align: center;
+}
+
+#onboarding-one .container .onboarding-one-text h2,
+#onboarding-two .container .onboarding-two-text h2,
+#onboarding-three .container .onboarding-three-text h2 {
+  margin-bottom: 32px;
+}
+
+#onboarding-one .container .onboarding-one-text p,
+#onboarding-two .container .onboarding-two-text p,
+#onboarding-three .container .onboarding-three-text p {
+  font-weight: 200;
+  text-align: left;
+}
+
+#onboarding-one .onboarding-one-buttons,
+#onboarding-two .onboarding-two-buttons,
+#onboarding-two .onboarding-three-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#onboarding-one .onboarding-one-buttons .skip a,
+#onboarding-two .onboarding-two-buttons .skip a {
+  text-decoration: none;
+  color: var(--scondary-color);
+}
+
+/* styling the login type page */
+#logintype {
+  padding: 56px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* MAIN PAGE STYLING (HOME) */
+
+#logintype .logintype-buttons {
+  text-align: center;
+}
+
+.loginas {
+  padding: 5%;
+  float: left;
+}
+
+.or {
+  padding: 5%;
+  float: left;
+}
+
+/* Login as a  customer */
+#login-customer {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#login-customer .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading-login {
+  color: #3c819d;
+  text-align: center;
+  margin-left: 24px;
+}
+
+.label {
+  color: #80878f;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#login-customer .login {
+  margin-top: 16px;
+}
+
+#login-customer ::placeholder {
+  color: #d3d3d3;
+}
+
+#login-customer h3 {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+#login-customer .signup-link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#login-customer .account-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#login-customer .account-text p {
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+.input {
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.login-customer-email {
+  margin: 16px 0;
+}
+
+.label-input-div {
+  display: grid;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#login-customer .forgot {
+  text-decoration: underline;
+  font-size: 10px;
+  font-weight: 600;
+  color: #777;
+}
+
+.or2-options {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.login-with-buttons {
+  border-radius: 10px;
+  padding: 15px;
+  color: #9ba1a8;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-family: "Poppins";
+}
+
+/* Create a user account */
+#create-useraccount {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#create-useraccount .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#create-useraccount .signup-link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#create-useraccount .account-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#create-useraccount .account-text p {
+  font-size: 12px;
+  margin-right: 6px;
+}
+
+#create-useraccount ::placeholder {
+  color: #d3d3d3;
+}
+
+#create-useraccount h3 {
+  font-size: 24px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+#create-useraccount ::placeholder {
+  color: #d3d3d3;
+}
+
+/* Login as a freelancer */
+#login-freelancer {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Create a freelancer account */
+#create-freelanceraccount {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* MAIN PAGE STYLING */
+#home {
+  /* height: auto; */
+  background-color: var(--main-bg-color);
+}
+
+#home .container,
+#categories .container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+#home .logo h5 {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--main-color);
+  margin-top: 16px;
+}
+
+#home .title-text h2 {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--scondary-color);
+  padding: 12px 0 8px;
+}
+
+#home .title-text p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#home .container .home-cards-container .card-image img {
+  height: 150px;
+}
+
+#home .home-cards-container {
+  margin: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 24px 24px;
+  grid-template-areas:
+    "area1 area2"
+    "area3 area4"
+    "area5 area6";
+}
+
+.area1 {
+  grid-area: area1;
+}
+.area2 {
+  grid-area: area2;
+}
+.area3 {
+  grid-area: area3;
+}
+.area4 {
+  grid-area: area4;
+}
+.area5 {
+  grid-area: area5;
+}
+.area6 {
+  grid-area: area6;
+}
+
+#home .home-cards-container a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+#home h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#home .card p {
+  font-size: 14px;
+  font-weight: 200;
+  color: var(--scondary-color);
+}
+
+#home .seeall {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--scondary-color);
+  align-self: flex-end;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+#home .line {
+  width: 80%;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #d5d5d5;
+  margin: 32px 0;
+}
+
+#home h3 {
+  width: 80%;
+  color: var(--scondary-color);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+#home .previous-requests {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home .previous-requests .previous-requests-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 352px;
+  background-color: #fff;
+  margin-bottom: 12px;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#home .previous-requests .previous-requests-card .request-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#home .previous-requests .previous-requests-card .request-text h4 {
+  font-size: 14px;
+}
+
+#home .previous-requests .previous-requests-card .request-text .title {
+  color: var(--scondary-color);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#home .previous-requests .previous-requests-card .request-text .date {
+  font-size: 10px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+#home .previous-requests .previous-requests-card button {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* #home .main-menu,
+#categories .main-menu,
+#search .main-menu,
+#favorites .main-menu,
+#profile-page .main-menu,
+#freelancers .main-menu {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+
+#home .main-menu .menu,
+#categories .main-menu .menu,
+#search .main-menu .menu,
+#favorites .main-menu .menu,
+#profile-page .main-menu .menu,
+#freelancers .main-menu .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .main-menu .menu .fas,
+#categories .main-menu .menu .fas,
+#search .main-menu .menu .fas,
+#favorites .main-menu .menu .fas,
+#profile-page .main-menu .menu .fas,
+#freelancers .main-menu .menu .fas {
+  font-size: 32px;
+  color: var(--scondary-color);
+}
+
+#home .main-menu .menu .fa-home,
+#categories .main-menu .menu .fa-home,
+#search .main-menu .menu .fa-home,
+#favorites .main-menu .menu .fa-home,
+#profile-page .main-menu .menu .fa-home,
+#freelancers .main-menu .menu .fa-home {
+  color: var(--main-color);
+} */
+
+/* CATEGORIES STYLING */
+#categories {
+  background-color: #fbfaff;
+}
+
+#categories a .arrow-title {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--scondary-color);
+}
+
+#categories a {
+  text-decoration: none;
+}
+
+#categories .arrow-title h3 {
+  font-size: 24px;
+  margin-left: 30px;
+}
+
+#categories .arrow-title .fas {
+  text-align: left;
+}
+
+#categories .container .cards-container {
+  margin: 32px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 32px;
+  grid-template-areas:
+    "area1 area2"
+    "area3 area4"
+    "area5 area6"
+    "area7 area8"
+    "area9 area10";
+}
+.area1 {
+  grid-area: area1;
+}
+.area2 {
+  grid-area: area2;
+}
+.area3 {
+  grid-area: area3;
+}
+.area4 {
+  grid-area: area4;
+}
+.area5 {
+  grid-area: area5;
+}
+.area6 {
+  grid-area: area6;
+}
+.area7 {
+  grid-area: area7;
+}
+.area8 {
+  grid-area: area8;
+}
+.area9 {
+  grid-area: area9;
+}
+.area10 {
+  grid-area: area10;
+}
+
+#categories .container .cards-container img {
+  height: 150px;
+}
+
+/* FREELANCERS LIST STYLING */
+#freelancers {
+  background-color: var(--main-bg-color);
+  /* height: 100vh; */
+}
+#freelancers .freelancers-container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 8px 0 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#freelancers .freelancers-container a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+#freelancers .freelancers-container .arrow-title {
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--scondary-color);
+}
+
+#freelancers .freelancers-container .arrow-title h3 {
+  font-size: 32px;
+  /* margin-left: 80px; */
+  position: absolute; /* new */
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+}
+
+#freelancers .freelancers-container .sort {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 0;
+}
+
+#freelancers .freelancers-container .sort h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--scondary-color);
+}
+
+#freelancers .freelancers-container .sort button {
+  width: 144px;
+  height: 50px;
+  background-color: #fff;
+  color: var(--scondary-color);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  margin: 5px;
+}
+
+#freelancers .freelancers-container .freelancers-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 352px;
+  margin: 12px 0;
+}
+
+#freelancers .freelancers-container .freelancers-card .request-image img {
+  border-radius: 10px;
+  width: 80px;
+  margin-right: 32px;
+}
+
+#freelancers .freelancers-container .freelancers-card .request-text .price {
+  font-size: 14px;
+  color: var(--scondary-color);
+}
+
+#freelancers .freelancers-container .freelancers-card .small-btn {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+#freelancers .main-menu {
+  align-self: center;
+  width: 100%;
+}
+
+/* DETAILED PAGE */
+#freelancer-details {
+  background-color: var(--main-bg-color);
+}
+
+#freelancer-details .details-container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#freelancer-details .details-container .arrow-title {
+  width: 100%;
+  margin-top: 32px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--scondary-color);
+}
+
+#freelancer-details .details-container .arrow-title h3 {
+  width: 70%;
+  font-size: 24px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+  text-align: center;
+}
+
+#freelancer-details .details-container .freelancer-data {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 0;
+}
+
+#freelancer-details .details-container .freelancer-data img {
+  width: 128px;
+  border-radius: 10px;
+}
+
+#freelancer-details .verified {
+  background-color: var(--scondary-color);
+  color: #fff;
+  font-style: italic;
+  padding: 5px;
+  font-weight: 200;
+  font-size: 12px;
+  text-align: center;
+}
+
+#freelancer-details .details-container .details-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 40px 0;
+}
+
+#freelancer-details .details-container .details-buttons button {
+  width: 144px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+#freelancer-details .details-container .details-buttons .add {
+  background-color: #fff;
+  color: var(--scondary-color);
+}
+
+#freelancer-details .details-container .details-buttons .request {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+#freelancer-details .details-container .job-description h3 {
+  color: var(--scondary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#freelancer-details .details-container .job-description p {
+  font-weight: 300;
+}
+
+#freelancer-details .details-container .services h3 {
+  color: var(--scondary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+#freelancer-details .details-container .services p {
+  font-weight: 300;
+}
+
+#freelancer-details .details-container .testimonials h3 {
+  color: var(--scondary-color);
+  font-size: 24px;
+  font-weight: 700;
+  margin: 32px 0 20px;
+}
+
+#freelancer-details .details-container .testimonials p {
+  font-weight: 300;
+}
+
+#freelancer-details .details-container .services .mow-lawning,
+#freelancer-details .details-container .services .hedge-trimming,
+#freelancer-details .details-container .services .cutting-edges {
+  width: 352px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#freelancer-details .details-container .show-more {
+  display: flex;
+  margin: 24px 0 0 auto;
+}
+
+#freelancer-details .details-container .show-more a {
+  font-size: 14px;
+  color: var(--font-color);
+  display: inline-block;
+}
+
+#freelancer-details .details-container .request-button {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+/* Request form */
+#request-form {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#request-form .upload-button {
+  background-color: #fff;
+  color: #5d5d5d;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  font-family: "Poppins";
+  margin-bottom: 5%;
+}
+
+#request-form .label-input-div {
+  margin-bottom: 7%;
+}
+
+/* Receipt page */
+#receipt {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#receipt .congratulations {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+}
+
+#receipt .you-have {
+  padding-top: 5%;
+}
+
+#receipt .freelancer-name {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+}
+
+#receipt .receipt-title {
+  margin-top: -15%;
+}
+#receipt .receipt-rating {
+  color: #f09279;
+  font-size: 18px;
+  font-family: "poppins";
+  font-style: italic;
+}
+
+/* Search page */
+
+#search {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#search .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#search .heading-login {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+#search .input {
+  display: block;
+  width: 85%;
+  margin: 32px auto 24px;
+}
+
+#search .main-menu {
+  align-self: center;
+}
+
+#search .search-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 80px 0;
+}
+
+#search .search-cards-container .freelancers-card {
+  width: 352px;
+  margin: 12px 0;
+}
+
+/* favorites page */
+#favorites {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#favorites .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#favorites .heading-login {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+#favorites .freelancers-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#favorites .freelancers-card,
+#search .freelancers-card {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 1px 4px 9px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  /*width: 352px;*/
+}
+
+#favorites .freelancers-card .request-image img,
+#search .search-cards-container .request-image img {
+  border-radius: 10px;
+  width: 80px;
+  margin-right: 32px;
+}
+
+#favorites .freelancers-card .request-text .price,
+#search .search-cards-container .request-text .price {
+  font-size: 14px;
+  color: var(--scondary-color);
+}
+
+#favorites .freelancers-card .small-btn {
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+#favorites .freelancers-cards-container {
+  height: 350px;
+}
+
+#favorites .main-menu {
+  align-self: center;
+}
+
+/* Profile page */
+#profile-page {
+  padding: 56px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#profile-page .login-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+#profile-page .heading-login {
+  color: #3c819d;
+  font-family: "Poppins";
+  font-size: 24px;
+  align-items: center;
+  margin-left: 100px;
+}
+
+#profile-page .upload-image {
+  display: block;
+  align-items: center;
+  margin: 20px auto;
+}
+
+#profile-page img {
+  width: 152px;
+  margin: 0 auto;
+  display: block;
+}
+
+#profile-page .upload-image {
+  width: 152px;
+  height: 40px;
+  background-color: #fff;
+  color: #3c819d;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  box-shadow: 1px 1px;
+  font-family: "Poppins";
+  font-size: 11px;
+}
+
+#profile-page .label-input-div {
+  padding: 5px;
+}
+
+#profile-page .btn {
+  margin-top: 24px;
+}

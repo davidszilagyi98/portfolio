@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>getItDone</title>
+    <meta name="description" content="Get things done with getItDone" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <nav class="main-menu">
+      <a href="#/home" class="nav-link">
+        <div class="home menu">
+          <i class="fas fa-home"></i>
+        </div>
+      </a>
+      <a href="#/search" class="nav-link">
+        <div class="search menu">
+          <i class="fas fa-search"></i>
+        </div>
+      </a>
+      <a href="#/favorites" class="nav-link">
+        <div class="favourites menu">
+          <i class="fas fa-heart"></i>
+        </div>
+      </a>
+      <a href="#/profile-page" class="nav-link">
+        <div class="profile menu">
+          <i class="fas fa-user"></i>
+        </div>
+      </a>
+    </nav>
+    <!-- WELCOMING SCREEN -->
+    <!-- <section id="welcome-screen" class="page">
+      <h2>getItDone</h2>
+    </section> -->
+
+    <!-- FIRST ONBOARDING -->
+    <!-- <section id="onboarding-one">
+      <div class="container">
+        <div class="onboardng-one-image">
+          <img src="./images/onboarding1.svg" alt="first onboarding image" />
+        </div>
+        <div class="onboarding-one-text">
+          <h2>
+            Get Things Done<br />
+            With getItDone
+          </h2>
+          <p>
+            getItDone creates a bridge between Freelancers and regular
+            customers.
+          </p>
+        </div>
+        <div class="onboarding-one-buttons">
+          <div class="skip">
+            <a href="#">Skip</a>
+          </div>
+          <button class="btn onboarding-btn">
+            Next <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </div>
+      </div>
+    </section> -->
+    <!-- ONBOARDING TWO -->
+    <!-- <section id="onboarding-two">
+      <div class="container">
+        <div class="left-arrow">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="onboardng-two-image">
+          <img src="./images/onboarding2.svg" alt="second onboarding image" />
+        </div>
+        <div class="onboarding-two-text">
+          <h2>Verified Freelancers</h2>
+          <p>
+            For your safety, all service providers are verified with NemId. You
+            can also select them by rating and testimonials.
+          </p>
+        </div>
+        <div class="onboarding-two-buttons">
+          <div class="skip">
+            <a href="#">Skip</a>
+          </div>
+          <button class="btn onboarding-btn">
+            Next <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </div>
+      </div>
+    </section> -->
+    <!-- ONBOARDING THREE -->
+    <!-- <section id="onboarding-three">
+      <div class="container">
+        <div class="left-arrow">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="onboardng-three-image">
+          <img src="./images/onboarding3.svg" alt="second onboarding image" />
+        </div>
+        <div class="onboarding-three-text">
+          <h2>Easy To Connect</h2>
+          <p>
+            Select a category, pick a freelancer from the list, check their service, price and location and send them a request.
+          </p>
+        </div>
+        <div class="onboarding-three-buttons">
+          <button class="btn">
+            Get Started <i class="fas fa-long-arrow-alt-right"></i>
+          </button>
+        </div>
+      </div>
+    </section> -->
+
+    <!-------Log in form customer or freelancer-------->
+    <!-- <section id="logintype">
+      <div class="logintype-buttons">
+      <h3 class="loginas">Log in as:</h3>
+      <button type="button" class="btn">Customer</button>
+      <p class="or">or:</p>
+      <button type="button" class="btn">Freelancer</button>
+      </div>
+    </section> -->
+    <!-------Login as a customer------->
+    <!-- <section id="login-customer">
+      <div class="left-arrow login-title">
+          <i class="fas fa-chevron-left"></i>
+          <h3 class="heading-login">Log in as a customer</h3>
+      </div>
+      
+      <form>
+        <div class="label-input-div">
+          <label class="label">Username</label>
+          <input class="input" type="text" name="username" placeholder="Your Username"></input>
+        </div>
+        <div class="label-input-div login-customer-email">
+          <label class="label">Email</label>
+          <input class="input" type="text" name="username" placeholder="Your Email"></input>
+        </div>
+        <div class="label-input-div">
+          <div class="password">
+            <label class="label">Password</label>
+            <a class="forgot" href="">Forgot password?</a>
+          </div>
+          <input class="input" type="text" name="username" placeholder="Choose Password"></input>
+        </div>
+        
+      </form>
+      <button type="button" class="btn login">Login</button>
+      <div class="account-text">
+        <p class="account-text">Don't have an account?</p>
+        <a href="#" class="signup-link">Sign up</a>
+      </div>
+      <p class="or2-options">or</p>
+      <button class="login-with-buttons" type="button" class="white-buttons">Log in with NemID</button>
+      <button class="login-with-buttons" type="button" class="white-buttons">Log in with Facebook</button>
+      <button class="login-with-buttons" type="button" class="white-buttons">Log in with Gmail</button>
+    </section> -->
+
+    <!-----Create a user acoount--->
+    <!-- <section id="create-useraccount">
+      <div class="left-arrow login-title">
+          <i class="fas fa-chevron-left"></i>
+      <h3 class="heading-login">Create a user account</h3>
+      </div>
+
+      <form>
+        <div class="label-input-div">
+          <label class="label">Username</label>
+          <input class="input" type="text" name="username" placeholder=" Your username">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Full name</label>
+          <input class="input" type="text name="fullname" placeholder="Your full name">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Email</label>
+          <input class="input" type="text" name="email" placeholder="Your email">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Password</label>
+          <input class="input" type="text" name="password" placeholder="Your password">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Password again</label>
+          <input class="input" type="text" name="passwordagain" placeholder="Your password again">
+        </div>
+      </form>
+      <div class="account-text">
+        <p class="account-text">Already have an account?</p>
+        <a href="#" class="signup-link">Sing in</a>
+      </div>
+      <button type="button" class="btn">Create an account</button>
+    </section> -->
+
+    <!----Login as a freelancer-->
+    <!-- <section id="login-customer">
+        <div class="left-arrow login-title">
+         <i class="fas fa-chevron-left"></i>
+        <h3 class="heading-login">Log in as a freelancer</h3>
+      </div>
+
+      <form>
+        <div class="label-input-div">
+          <label class="label">Username</label>
+          <input class="input" type="text" name="username" placeholder="username"></input>
+        </div>
+        <div class="label-input-div">
+          <label class="label">Email</label>
+          <input class="input" type="text" name="username" placeholder="Your Email"></input>
+        </div>
+        <div class="label-input-div">
+          <div class="password">
+          <label class="label">Password</label>
+          <a class="forgot" href="">Forgot password?</a>
+          </div>
+          <input class="input" type="text" name="username" placeholder="Password"></input>
+        </div>
+        
+      </form>
+      <button type="button" class="btn">Login</button>
+        <div class="account-text">
+      <p class="account-text">Don't have an account?</p>
+        <a href="#" class="signup-link">Sign up</a>
+        </div>
+      <p class="or2-options">or</p>
+      <button class="login-with-buttons" type="button" class="white-buttons">Log in with NemID</button>
+      <button class="login-with-buttons" type="button" class="white-buttons">Log in with Facebook</button>
+      <button class="login-with-buttons" type="button" class="white-buttons">Log in with Gmail</button>
+    </section> -->
+
+    <!-----Create a freelancer account --->
+    <!-- <section id="create-useraccount">
+      <div class="left-arrow login-title">
+          <i class="fas fa-chevron-left"></i>
+      <h3 class="heading-login">Create a freelancer account</h3>
+      </div>
+        <form>
+          <div class="label-input-div">
+          <label class="label">Username</label>
+          <input class="input" type="text" name="username" placeholder=" Your username">
+          </div>
+          <div class="label-input-div">
+          <label class="label">Full name</label>
+          <input class="input" type="text name="fullname" placeholder="Your full name">
+          </div>
+          <div class="label-input-div">
+          <label class="label">Email</label>
+          <input class="input" type="text" name="email" placeholder="Your email">
+          </div>
+          <div class="label-input-div">
+          <label class="label">Password</label>
+          <input class="input" type="text" name="password" placeholder="Your password">
+          </div>
+          <div class="label-input-div">
+          <label class="label">Password again</label>
+          <input class="input" type="text" name="passwordagain" placeholder="Your password again">
+          </div>
+        </form>
+        <div class="account-text">
+        <p class="account-text">Already have an account?</p>
+        <a href="#" class="signup-link">Sing in</a>
+      </div>
+        <button type="button" class="btn">Create an account</button>
+    </section> -->
+
+    <!-- MAIN PAGE HTML -->
+    <section id="home" class="page">
+      <div class="container">
+        <div class="logo">
+          <h5>getItDone</h5>
+        </div>
+        <div class="title-text">
+          <h2>Services</h2>
+          <p>Please select your<br />area of interest</p>
+        </div>
+        <div class="home-cards-container">
+          <!-- <div class="card area1">
+            <div class="card-image">
+              <img src="" alt="Cleaning Image" />
+            </div>
+            <h4></h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area2">
+            <div class="card-image">
+              <img src="" alt="Gardening Image" />
+            </div>
+            <h4></h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area3">
+            <div class="card-image">
+              <img src""" alt="Moving Image" />
+            </div>
+            <h4></h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area4">
+            <div class="card-image">
+              <img src="./" alt="Babysitting Image" />
+            </div>
+            <h4></h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area5">
+            <div class="card-image">
+              <img src="" alt="Pets Image" />
+            </div>
+            <h4></h4>
+            <p>74 freelancers</p>
+          </div>
+          <div class="card area6">
+            <div class="card-image">
+              <img src="" alt="Painting Image" />
+            </div>
+            <h4></h4>
+            <p>74 freelancers</p>
+          </div> -->
+        </div>
+        <a class="seeall" href="" onclick=goToCategories()
+          >See all <i class="fas fa-chevron-right"></i
+        ></a>
+        <div class="line"></div>
+        <h3>Previous Requests</h3>
+        <!-- <div class="previous-requests">
+          <div class="previous-requests-card">
+            <div class="request-image">
+              <img src="./images/obama.png" alt="Client Image" />
+            </div>
+            <div class="request-text">
+              <h4>Barack Obama</h4>
+              <p class="title">Cleaning</p>
+              <p class="date">Last used on DD-MM-YYY</p>
+            </div>
+            <button class="btn request">Request</button>
+          </div>
+          <div class="previous-requests-card">
+            <div class="request-image">
+              <img src="./images/obama.png" alt="Client Image" />
+            </div>
+            <div class="request-text">
+              <h4>Barack Obama</h4>
+              <p class="title">Cleaning</p>
+              <p class="date">Last used on DD-MM-YYY</p>
+            </div>
+            <button class="btn request">Request</button>
+          </div>
+          <div class="previous-requests-card">
+            <div class="request-image">
+              <img src="./images/obama.png" alt="Client Image" />
+            </div>
+            <div class="request-text">
+              <h4>Barack Obama</h4>
+              <p class="title">Cleaning</p>
+              <p class="date">Last used on DD-MM-YYY</p>
+            </div>
+            <button class="btn request">Request</button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- ALL CATEGORIES PAGE -->
+     <section id="categories" class="page">
+        <div class="container">
+            <a href="" class="back-home" onclick="arrowGoBack()">
+              <div class="arrow-title">
+              <i class="fas fa-chevron-left"></i>
+              <h3>Browse</h3>
+            </div>
+            </a>
+            <div class="cards-container">
+                <div class="card area1">
+                    <div class="card-image">
+                        <img src="./images/Cleaning.png" alt="Cleaning Image">
+                    </div>
+                    <h4>Cleaning</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area2">
+                    <div class="card-image">
+                        <img src="./images/Gardening.png" alt="Gardening Image">
+                    </div>
+                    <h4>Gardening</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area3">
+                    <div class="card-image">
+                        <img src="./images/Moving.png" alt="Moving Image">
+                    </div>
+                    <h4>Moving</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area4">
+                    <div class="card-image">
+                        <img src="./images/Babysitting.png" alt="Babysitting Image">
+                    </div>
+                    <h4>Babysitting</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area5">
+                    <div class="card-image">
+                        <img src="./images/Pets.png" alt="Pets Image">
+                    </div>
+                    <h4>Pets</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area6">
+                    <div class="card-image">
+                        <img src="./images/Painting.png" alt="Painting Image">
+                    </div>
+                    <h4>Painting</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area7">
+                    <div class="card-image">
+                        <img src="./images/Electricity.png" alt="Painting Image">
+                    </div>
+                    <h4>Electricity</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area8">
+                    <div class="card-image">
+                        <img src="./images/Plumbing.png" alt="Painting Image">
+                    </div>
+                    <h4>Plumbing</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area9">
+                    <div class="card-image">
+                        <img src="./images/Carwash.png" alt="Painting Image">
+                    </div>
+                    <h4>Car Washing</h4>
+                    <p>74 freelancers</p>
+                </div>
+                <div class="card area10">
+                    <div class="card-image">
+                        <img src="./images/Shopping.png" alt="Painting Image">
+                    </div>
+                    <h4>Shopping</h4>
+                    <p>74 freelancers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Freelancers in each category -->
+    <section id="freelancers" class="page">
+      <div class="freelancers-container">
+        <a class="back-home" onclick="arrowGoBack()">
+          <div class="arrow-title">
+            <i class="fas fa-chevron-left"></i>
+            <h3 class="page-title">Gardening</h3>
+          </div>
+        </a>
+        <div class="sort">
+          <h4 id="sortBy">Sort:</h4>
+          <button value="price" onclick="orderBy('price')" type="button" class="sort-name">By Price</button>
+          <button value="city" id="sortBy" onclick="orderBy('city')"  type="button" class="sort-city">By City</button>
+        </div>
+        <div class="freelancers-cards-container">
+            <!-- <div class="freelancers-card">
+              <div class="request-image">
+                  <img src="./images/obama.png" alt="Client Image">
+              </div>
+              <div class="request-text">
+                <img src="./images/5stars.png" alt="rating stars">
+                <h4>Gardner, Silkeborg</h4>
+                <p>Per Rasmusen</p>
+                <p class='price'>Avg. Price 100kr.</p>
+              </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- FREELANCER DETAILED PAGE -->
+    <section id="freelancer-details" class="page">
+      <div class="details-container">
+        <div class="arrow-title">
+          <i class="fas fa-chevron-left"></i>
+          <h3></h3>
+        </div>
+        <div class="freelancer-data">
+          <div class="freelancer-image">
+            <img src="" alt="freelancer image">
+          </div>
+          <div class="freelancer-text">
+            <div class="rating">
+              <img src="./images/5stars.png" alt="rating">
+            </div>
+            <h4>Gardening, Aarhus</h4>
+            <p>+45 12 34 56 78</p>
+            <p class="verified">Verified with NemId</p>
+          </div>
+        </div>
+        <div class="details-buttons">
+          <button class="add">Add To Favourite</button>
+          <button class="request">Request</button>
+        </div>
+        <div class="job-description">
+          <h3>Job Description</h3>
+          <p>I am an gardener, with over 6 years
+of experience. I can help you with mowing the lawn, hedge trimming and planting seeds or trees.</p>
+        </div>
+        <div class="services">
+          <h3>Services</h3>
+          <div class="mow-lawning">
+            <p>Mow Lawning</p>
+            <p>Price 100 kr.</p>
+          </div>
+          <div class="hedge-trimming">
+            <p>Hedge Trimming</p>
+            <p>Price 100 kr.</p>
+          </div>
+          <div class="cutting-edges">
+            <p>Cutting Edges</p>
+            <p>Price 100 kr.</p>
+          </div>
+        </div>
+        <div class="testimonials">
+          <h3>Testimonials</h3>
+          <div class="testimonials-text">
+            <h4>Name</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <p>Date:</p>
+          </div>
+          <div class="testimonials-text">
+            <h4>Name</h4>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+            <p>Date:</p>
+          </div>
+        </div>
+        <div class="show-more">
+          <a href="#">Show More...</a>
+        </div>
+        <div class="request-button">
+          <button class="btn">Request</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Request form -->
+    <section id="request-form" class="page">
+      <div class="left-arrow login-title">
+          <i class="fas fa-chevron-left"></i>
+      </div>
+      <form>
+        <div class="request-page-div">
+      <div class="label-input-div">
+          <label class="label">Date</label>
+          <input class="input" type="text" name="username" placeholder="DD-MM-YYY"></input>
+        </div>
+        <div class="label-input-div">
+          <label class="label">Hour interval</label>
+          <input class="input" type="text" name="username" placeholder="From 00:00 - To 00:00"></input>
+        </div>
+        <div class="label-input-div">
+          <label class="label">Location</label>
+          <input class="input" type="text" name="username" placeholder="Full address"></input>
+        </div>
+        <div class="label-input-div">
+          <label class="label">Your message</label>
+          <input class="input" type="text" name="username" placeholder="Insert your message here"></input>
+        </div>
+        <button type="button" class="btn upload-button">Upload image</button>
+        <button type="button" class="btn request-button">Request</button>
+        </div>
+      </form>
+    </section>
+    <!-- Receipt page -->
+    <!-- <section id="receipt">
+      <div class="congratulations-div">
+      <h3 class="congratulations">Congratulations,</h3>
+      <p class="you-have">You have succesfully<br>
+      booked your freelancer</p>
+      </div>
+      <h3 class="freelancer-name">John Doe</h3>
+      <p class="receipt-title">Gardening, Aarhus C<br>
+      +45 12 34 45 78</p>
+      <p>On September 23, 2021<br>
+        In Aarhus C<br>
+        From 14:00pm to 16:00pm,<br>
+        For 200KR.
+      </p>
+      <p class="receipt-rating">Please remember to give
+    The freelancer a rating after
+    The task is completed!</p>
+    <button type="button" class="btn">Back to main page</button>
+    </section> -->
+
+    <!-- Search page -->
+    <section id="search" class="page">
+      <div class="left-arrow login-title">
+        <i class="fas fa-chevron-left" onclick="arrowGoBack()"></i>
+        <h3 class="heading-login">Search</h3>
+      </div>
+      <input class="input" type="text" placeholder="Service, provider or city"
+        onkeyup="search(this.value)" onsearch="search('')"/>
+      <div class="search-cards-container"></div>
+    </section>
+
+    <!-- Favorites page -->
+    <section id="favorites" class="page">
+      <div class="left-arrow login-title">
+        <i class="fas fa-chevron-left" onclick="arrowGoBack()"></i>
+        <h3 class="heading-login">Favorites</h3>
+      </div>
+
+      <div class="freelancers-cards-container">
+        <div class="freelancers-card">
+          <div class="request-image">
+            <img src="./images/obama.png" alt="Client Image" />
+          </div>
+          <div class="request-text">
+            <img src="./images/5stars.png" alt="rating stars" />
+            <h4>Gardner, Silkeborg</h4>
+            <p>Per Rasmusen</p>
+            <p class="price">Avg. Price 100kr.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile page -->
+    <section id="profile-page" class="page">
+      <div class="left-arrow login-title">
+        <i class="fas fa-chevron-left" onclick="arrowGoBack()"></i>
+        <h3 class="heading-login">Profile</h3>
+      </div>
+        <img src="https://images.generated.photos/aKEGtToHYa2eEfP0KsZb00clryQCh7GQ182DWu9J7-8/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjY2NTY4LmpwZw.jpg" alt="profile picture" class="profile-picture">
+        <button type="button" class="upload-image">Upload image</button>
+      <form>
+        <div class="label-input-div">
+          <label class="label">Full name</label>
+          <input class="input" type="text name="fullname" placeholder="Your full name">
+        </div>
+        <div class="label-input-div">
+          <label class="label">Email</label>
+          <input
+            class="input"
+            type="text"
+            name="email"
+            placeholder="Your email"
+          />
+        </div>
+        <div class="label-input-div">
+          <label class="label">Password</label>
+          <input
+            class="input"
+            type="text"
+            name="password"
+            placeholder="Your password"
+          />
+        </div>
+      </form>
+      <button type="button" class="btn">Update</button>
+
+    </section>
+
+    <!-- FREELANCERS PAGE -->
+    <script src="./js/router.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
