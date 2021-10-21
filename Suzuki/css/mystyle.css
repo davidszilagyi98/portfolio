@@ -1,0 +1,887 @@
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+/* Start your code below */
+
+/*font */
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    width: 25%;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+    position: fixed;
+    background-color: white;
+    position: fixed;
+    top: 0;
+}
+
+
+.mobileicon {
+    display: none;
+}
+
+.mobileiconlabel {
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+    font-size: 1.5rem;
+}
+
+.menuitems_container {
+    display: none;
+
+
+}
+
+.navigation_container input:checked~.menuitems_container {
+    display: flex;
+    flex-direction: column;
+    background-color:  #0F364E;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 60px;
+    z-index: 55;
+    position: fixed;
+}
+
+.menuitem {
+    color: white;
+    margin: 0 auto;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+.newmain{
+    width: 100%;
+    display: block;
+    padding-top: 80px;
+}
+/* ----------------------------Exterior start---------------------------- */
+
+.exterior_section{
+    background-color: #0F364E;
+}
+
+.exterior {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.subheading{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.exterior_text {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dynamic {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+   }
+
+.dynamic_text{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dynamiclook{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.borninthecity{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.borninthecity_text{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* ----------------------------Exterior end ---------------------------- */
+
+/* ----------------------------Interior start---------------------------- */
+
+.interior_section{
+    background-color: #191717;
+}
+
+.interior_picture {
+    width: 100%;
+    display: block;
+    padding-top: 10px;
+}
+
+.interior_heading{
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.subheading_interior{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.conzol{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.cruisecontrol_text{
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+.trunk{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.trunk_text{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cupholder{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.cupholder_text{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.usbaux{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.usbaux_text{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 20px;
+}
+
+
+
+/* --------------------Interior end---------------------------------- */
+
+/* --------------------Safety start---------------------------------- */
+
+.safety_section_web{
+    display: none;
+}
+.safety_section{
+    background-color: white;
+}
+
+.safety_picture{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.safety{
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.emergency_picture{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.emergeny_heading{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.emergency_text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.blind_picture{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.blind_heading{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.blind_text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.raer_heading{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size:20px;
+}
+
+.raer_picture{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.raer_text{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.traffic_heading{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.traffic_picture{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.traffic_text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.trafficsignrecognition{
+     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+/* --------------------Safety end---------------------------------- */
+
+/* --------------------Hybrid start---------------------------------- */
+
+.hybrid_section{
+    background-color: white;
+}
+
+.hybrid_picture{
+    width:100%;
+    padding-bottom: 10px;
+}
+
+.hybrid{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.hybrid_logo{
+    width: 70%;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.hybrid_explain{
+    width: 80%;
+     margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.hybrid_text1{
+    padding: 20px;
+}
+
+.hybrid_text2{
+    padding: 20px;
+}
+.hybrid_text3{
+   padding: 20px;
+}
+.hybrid_text4{
+    padding: 20px;
+}
+/* --------------------Hybrid end---------------------------------- */
+
+/* --------------------gallery start----------------------------- */
+
+.gallery{
+    padding-bottom: 20px;
+}
+
+.seemore{
+     padding: 5px 20px;
+        font-size: 30px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        background-color: #E83631;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        cursor: pointer;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.gallery_container{
+    display: none;
+    margin: 0 auto;
+    
+}
+
+.gallery_button:checked~ .gallery_container{
+    display: block;
+    bottom: 0;
+}
+
+
+.accordian_pictures{
+    margin: 0 auto;
+}
+
+.gallery1{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.gallery_button{
+    display: none;
+}
+
+/* -------------------gallery end-------------------------- */
+/* --------------------Form start------------------ */
+.signup_section{
+    background-color: white;
+}
+
+.signup{
+    text-align: center;
+    padding: 20px;
+}
+
+form input{
+    border: solid black 1px;
+}
+
+.form_direction{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.firstname{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.lastname{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.email{
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+.select{
+    border: solid black 1px;
+}
+
+.submit{
+    margin-top: 20px;
+    height: 25px;
+    margin-bottom: 20px;
+    border: solid black 1px;
+    font-weight: bold;
+}
+
+/* --------------------Form end------------------ */
+/* --------------------Price start---------------------------------- */
+.price_section{
+    background-color: white;
+}
+.price_heading{
+    text-align: center;
+    padding-bottom: 10px;
+    color: black;
+    font-size: 40px;
+    
+}
+
+.pricelist_picture{
+    width: 90%;
+     margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+    display: none;
+}
+
+.mobilepricelist{
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* -----.button{
+       padding: 15px 32px;
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        background-color: #E83631;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        cursor: pointer;
+    }------ */
+    
+    .link{
+        text-decoration: none;
+        padding: 15px 32px;
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        background-color: #E83631;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        cursor: pointer;
+        width: 50%;
+        height: 25%;
+    }
+    
+    .price_section{
+        padding-bottom:20px;
+    }
+/* --------------------Price end---------------------------------- */
+
+/* footer */
+
+.footer{
+    background-color: #0F364E;
+}
+
+.followus{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-bottom: 5px;
+}
+
+.facebook_logo{
+    width: 40px;
+    padding-bottom: 15px;
+    margin-left: 30%;
+    
+    }
+
+.youtube_logo{
+    width: 60px;
+    margin-left: 10%;
+    padding-bottom: 5px
+}
+
+.arrow{
+    width: 50px;
+    background-color: red;
+    float: right;
+    display: none;
+}
+
+.video{
+    width: 80%;
+    height: 20%;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------------------Media queri 900px---------------- */
+
+@media only screen and (min-width:900px){
+    .mobileicon{
+        display: none;
+    }
+    .mobileiconlabel{
+        display: none;
+    }
+    .menuitems_container{
+        display:flex;
+        background-color: white;
+    }
+    
+    .menuitem{
+        color:#005D9B;
+        font-size: 25px;
+        font-weight: bold;
+        
+    }
+    
+    .logo{
+        float: left;
+        width: 80px;
+        padding-right: 10px
+    }
+/* ----------navbar end ---------------- */
+    /* ---------exterior pictures start------------ */
+    
+    .sectionformainpicture{
+        
+    }
+    .newmain2{
+        width: 100%;
+    }
+    .exterior{
+        padding-bottom: 30px;
+    }
+    
+    .exterior_section{
+        padding-bottom: 80px;
+        padding-top: 30px;
+        font-size: 30px;
+        
+    }
+    
+    .direction_exterior{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container_photos_exterior{
+        width: 100%;
+    }
+    
+     /* ---------exterior pictures end------------ */
+    
+     /* ---------Interior pictures start------------ */
+    
+    .interior_section{
+        padding-bottom: 100px;
+    }
+    
+    .direction_interior{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container_photos_interior{
+        width: 100%
+    }
+    
+    .usbaux{
+        width: 30%
+    }
+    
+    
+    
+    
+    
+    
+   
+ 
+   
+
+    
+    
+    /* ---------Interior pictures end------------ */
+    
+    
+     /* ---------Safety start------------ */
+    
+    .safety_picture{
+        width: 70%;
+    }
+    
+    .subheading_positioning{
+       display: flex;
+    justify-content: space-between;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    .picture_positioning{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+    
+    .text_positioning{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        margin-left: 10%;
+        margin-right: 6%
+    }
+    
+    .subheading_positioning2{
+        display: flex;
+         justify-content: space-between;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .picture_positioning2{
+        display: flex;
+         justify-content: space-between;
+        margin-left: 0;
+        margin-right: 5%
+    }
+    .text_positioning2{
+        display: flex;
+         justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 7%;
+        padding-bottom: 30px;
+    }
+    
+    
+    .emergency_picture{
+        width: 40%;
+    }
+    
+    .blind_picture{
+        width: 40%
+    }
+    
+    .raer_picture{
+        width: 40%;
+    }
+    
+    .trafficsignrecognition{
+        width: 40%;
+        margin-right: 0;
+    }
+    
+    
+    .safety_section_mobile{
+        display: none;
+    }
+    .safety_section_web{
+        display: block;
+    }
+    
+     /* ---------Safety end------------ */
+    
+    
+     /* ---------Hybrid start------------ */
+    .hybrid_explain{
+        float: right;
+        width: 40%;
+        margin-right: 10px;
+    }
+    
+    
+    .hybrid_logo{
+        margin-bottom: 50px;
+        width: 30%;
+    }
+    
+    .hybrid_text1{
+        padding-bottom: 20px;
+    }
+    .hybrid_text2{
+        padding-bottom: 20px;
+    }
+    .hybrid_text3{
+        padding-bottom: 20px;
+    }
+    .hybrid_text4{
+        padding-bottom: 20px;
+    }
+     /* ---------Hybrid end ------------ */
+    
+    /* ---------gallery start ------------ */
+    .gallery1{
+        width: 250px;
+        transition: 0.3s;
+        display: block;
+        overflow: hidden;
+    }
+    
+    .gallery1:hover{
+         transform: scale(1.2);
+    }
+    
+    .accordian_pictures{
+        margin-left: 50%;
+        margin-bottom: 50px;
+        width: 760px;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /* ------gallery end ------------ */
+    
+    
+    
+    /* --------Price start ------------ */
+    
+    /* --- .button{
+        padding: 15px 32px;
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        background-color: #E83631;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        cursor: pointer;
+    }---- */
+    
+    .link{
+        text-decoration: none;
+        color: white;
+        padding: 15px 32px;
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #E83631;
+        margin-top: 20px;
+        border-radius: 15px;
+        box-shadow: 0 5px #666;
+        cursor: pointer;
+    }
+    
+    .mobilepricelist{
+        display: none;
+    }
+    
+    .pricelist_picture{
+        display: block;
+    }
+    
+    
+    /* ---------Price end ------------ */
+    
+    /* ---------Video start ------------ */
+    
+    .video_section{
+        
+    }
+    .video{
+        height: 450px;
+        
+    }
+    
+    /* ---------Video end ------------ */
+     /* ---------Footer start ------------ */
+    .followus{}
+    
+    .facebook_logo{
+        margin-left: 30%;
+        margin-right: 25%;
+    }
+     /* ---------Footer end ------------ */
+    
+    
+ }
