@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <title>HOME</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-container">
+            <h2>Hello Mads!</h2>
+            <a href="./profile.html">
+                <img src="./assets/images/portrait.jpg" alt="portrait">
+            </a>
+        </div>
+        <a class="weatherwidget-io" href="https://forecast7.com/en/56d1510d11/brabrand/" data-label_1="BRABRAND" data-label_2="WEATHER" data-icons="Climacons Animated" data-mode="Current" data-days="3" data-theme="weather_one" >BRABRAND WEATHER</a>
+
+    </header>
+
+    <main>
+        <div class="main-container">
+            <a href="./laundry.html">
+                <div class="card">
+                    <img src="./assets/images/washing-machine-icon.svg" alt="">
+                    <h4>LAUNDRY</h4>
+                </div>
+            </a>
+            <a href="./lock.html">
+                <div class="card">
+                    <img src="./assets/images/lock-icon.svg" alt="">
+                    <h4>LOCK</h4>
+                </div>
+            </a>
+            <a href="./cleaning.html">
+                <div class="card">
+                    <img src="./assets/images/clean-icon.svg" alt="">
+                    <h4>CLEANING</h4>
+                </div>
+            </a>
+            <a href="./tvroom.html">
+                <div class="card">
+                    <img src="./assets/images/sofa-icon.svg" alt="">
+                    <h4>TV ROOM</h4>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <a href="./laundry.html">
+            <img src="./assets/images/washing-machine-dark-icon.svg" alt="">
+        </a>
+        <a href="./lock.html">
+            <img src="./assets/images/lock-dark-icon.svg" alt="">
+        </a>
+        <a href="#">
+            <img class="home-button" src="./assets/images/home-active-icon.svg" alt="">
+        </a>
+        <a href="./cleaning.html">
+            <img src="./assets/images/clean-dark-icon.svg" alt="">
+        </a>
+        <a href="./tvroom.html">
+            <img src="./assets/images/sofa-dark-icon.svg" alt="">
+        </a>
+    </footer>
+
+    <script>
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+        </script>
+</body>
+</html>

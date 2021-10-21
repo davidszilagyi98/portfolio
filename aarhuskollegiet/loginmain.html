@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+
+    <style>
+        @import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+        body,
+        html {
+            margin: 0;
+            height: 100%;
+            background-image: linear-gradient(#32323C, #48485B)
+        }
+
+        input {
+            border: none;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 70px;
+            height: 80%;
+            width: 100%;
+            position: fixed;
+            bottom: -10%;
+        }
+
+        .welcome {
+            color: #3F3F49;
+            font-family: Montserrat;
+            font-size: 24px;
+            padding-left: 10%;
+            padding-top: 12%;
+        }
+
+        .input-fields {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 60px;
+            padding: 10%;
+        }
+
+        .input-line {
+            background: none;
+            margin-bottom: 10px;
+            line-height: 2.4em;
+            color: #3F3F49;
+            font-family: roboto;
+            font-weight: 300;
+            letter-spacing: 0.02rem;
+            font-size: 14px;
+            border-bottom: 1px solid #3F3F49;
+
+        }
+
+        .input-line::-webkit-input-placeholder {
+            font-family: FontAwesome;
+            font-weight: normal;
+            overflow: visible;
+            vertical-align: top;
+            display: inline-block !important;
+            padding-left: 5px;
+            padding-top: 2px;
+        }
+
+        h2 {
+            color: #E5E5E5;
+            font-family: montserrat;
+            font-weight: 100;
+            font-size: 24px;
+            text-transform: uppercase;
+            text-align: center;
+            margin-bottom: 0;
+            padding-top: 5%;
+        }
+
+        h4 {
+            color: #E5E5E5;
+            font-family: montserrat;
+            font-weight: 100;
+            font-size: 10px;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        .logo {
+            width: 20%;
+            padding: 20px;
+        }
+
+        .forget {
+            font-family: montserrat;
+            font-size: 12px;
+            padding-left: 10%;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #333;
+        }
+
+        #btn {
+            color: #fff;
+            background-image: linear-gradient(#0097A7, #006D78);
+            padding: 7px 25px;
+            border: none;
+            border-radius: 20px;
+            font-size: 14px;
+            font-family: montserrat;
+            width: 35%;
+            display: block;
+            margin: 50px auto;
+        }
+
+        .icons {
+            width: 30px;
+            padding: 5px;
+        }
+
+        .images {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .active_icon {
+            background-color: darkgray;
+            border-radius: 50%;
+            }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class='bold-line'></div>
+    <div class="logo-container">
+        <img src="incom-logo.png" alt="logo" class="logo">
+    </div>
+    <h2>Aarhus Kollegiet</h2>
+    <h4>Brabrand Housing Association</h4>
+    <div class='container'>
+        <div class='window'>
+            <div class='overlay'></div>
+            <div class='content'>
+                <div class='welcome'>Log in</div>
+                <p class="hi"></p>
+                <div class='input-fields'>
+                    <input type='text' placeholder='&#61447;&nbsp;&nbsp;&nbsp;username' id="user" class='input-line full-width'>
+                    <input type='password' placeholder='&#xf084;&nbsp;&nbsp;password' id="pass" class='input-line full-width'>
+                </div>
+                <div class="forget">
+                    <a href="#">Forget your password?</a>
+                </div>
+
+
+                <div><button id="btn">Log in</button></div>
+            </div>
+
+            <div class="images">
+                <img src="Key_font_awesome.png" class="icons active_icon">
+                <img src="finger.png" class="icons">
+                <img src="QR_icon.svg.png" class="icons">
+            </div>
+        </div>
+
+
+
+     <script>
+        var users = [{
+                username: 'mads',
+                password: '1234'
+            },
+        ];
+
+        var button = document.getElementById('btn');
+
+        button.onclick = function() {
+            var username = document.getElementById('user').value;
+            var password = document.getElementById('pass').value;
+
+            for (var i = 0; i < users.length; i++) {
+                if (username == users[i].username && password == users[i].password) {
+                    window.location.href = 'onboarding.html';
+                    break;
+                } else {
+                    alert('Something is not correct, give it another try!');
+                }
+            }
+        }
+    </script>
+
+
+    </div>
+
+</body>
+
+</html>
