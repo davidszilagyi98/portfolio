@@ -1,0 +1,845 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main */
+.main-page {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.me-image {
+  width: 100%;
+  height: 100%;
+}
+
+.desktop-menu-section {
+  display: none;
+}
+/*  ---------------------------
+.main-text {
+  margin-top: -20%;
+  margin-left: 40%;
+  color: #fff;
+} 
+
+.hi {
+  font-size: 30px;
+  padding-bottom: 15%;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mdu-student {
+  margin-top: -15%;
+  font-size: 14px;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+
+/*second-page text*/
+
+.second-page {
+  margin-top: 1%;
+  background-color: #d0d8e1;
+  height: 100%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.creating {
+  font-size: 30px;
+  color: #334958;
+  text-align: center;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.user-focus {
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  padding-top: 10%;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.keyboard {
+  width: 70%;
+  transform: rotate(-35deg);
+  margin-left: 60%;
+  margin-top: -20%;
+}
+
+#who-am-i {
+  background-color: #f5f5f5;
+  margin-top: -8%;
+}
+
+.who-am-i-heading {
+  padding-top: 20%;
+  font-size: 30px;
+  color: #334958;
+  text-align: center;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.p-text {
+  margin-top: 10%;
+  width: 80%;
+  margin-left: 10%;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0f364e;
+}
+
+/*projects*/
+#projects {
+  background-color: #f5f5f5;
+}
+.projects-heading {
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-top: 15%;
+  margin-bottom: 10%;
+  color: #334958;
+}
+
+.project-heading {
+  font-weight: 400;
+}
+
+.link-to-subpage {
+  text-decoration: none;
+}
+
+/*div projects*/
+
+.projects-div {
+}
+
+.getitdone-div {
+  text-align: center;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #334958;
+  width: 80%;
+  margin: 0 auto;
+  margin: 10%;
+}
+
+.getitdone {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+}
+/*cozy-corner project*/
+.cozy-div {
+  text-align: center;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #334958;
+  width: 80%;
+  margin: 0 auto;
+  margin: 10%;
+}
+
+.cozy-corner {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.uxui-div {
+  text-align: center;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #334958;
+  width: 80%;
+  margin: 0 auto;
+  margin: 10%;
+}
+
+.ux-ui {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.suzuki-div {
+  text-align: center;
+  padding-bottom: 5%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #334958;
+  width: 80%;
+  margin: 0 auto;
+  margin: 10%;
+}
+
+.suzuki {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
+}
+
+.project-heading {
+  color: #334958;
+  font-size: 30px;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.heading-title {
+  margin: 5%;
+  color: #334958;
+}
+/*ux-ui project*/
+.uxui-div {
+  text-align: center;
+}
+
+.ux-ui {
+  padding-bottom: 10%;
+}
+
+/*suzuki project*/
+
+.suzuki-div {
+  text-align: center;
+}
+
+.suzuki {
+  padding-bottom: 10%;
+}
+
+/*skillset*/
+#skillset-section {
+  margin-bottom: 10%;
+  background-color: #d0d8e1;
+}
+
+.skillset {
+  padding-bottom: 10%;
+  padding-top: 10%;
+  text-align: center;
+  color: #334958;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*logos*/
+
+.html-logo {
+  width: 20%;
+}
+.css-logo {
+  width: 20%;
+}
+.js-logo {
+  width: 20%;
+}
+.github-logo {
+  width: 15%;
+}
+.vs-logo {
+  width: 15%;
+}
+.pr-logo {
+  width: 15%;
+}
+.xd-logo {
+  width: 15%;
+}
+
+.logos-1 {
+  text-align: center;
+}
+
+.logos-2 {
+  text-align: center;
+  margin-bottom: 10%;
+  padding-bottom: 10%;
+}
+
+/*contact me*/
+#contact-me {
+  background-color: #eaeaea;
+  text-align: center;
+  padding-bottom: 20%;
+  padding-top: 5%;
+}
+
+.contact-me-heading {
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  margin: 20%;
+  color: #334958;
+}
+
+.contact-me-div {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email-contact {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.phone-contact {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.linkedin-contact {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icons-div {
+  padding: 5%;
+}
+
+.info-link {
+  text-decoration: none;
+  color: black;
+}
+
+/*Mobile menu*/
+.navigation_container {
+  padding-bottom: 10%;
+}
+
+.nav {
+  position: fixed;
+  margin-top: 3%;
+}
+
+.mobileicon {
+  display: none;
+}
+
+.mobileiconlabel {
+  font-size: 2rem;
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 300px;
+
+  z-index: 1;
+}
+
+.menuitems_container {
+  display: none;
+}
+
+.navigation_container input:checked ~ .menuitems_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #334958;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 1px;
+  z-index: 55;
+  position: fixed;
+}
+
+.menuitem {
+  color: white;
+  margin: 0 auto;
+  font-size: 40px;
+  text-decoration: none;
+  padding: 5%;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.x {
+  font-size: 70px;
+  color: #fff;
+  padding-left: 5%;
+  position: fixed;
+  margin-left: 80%;
+  margin-top: 3%;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.menus {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40%;
+}
+/*videos*/
+.cozy-video {
+  width: 100%;
+}
+
+.getitdone-video {
+  width: 60%;
+}
+.uxui-video {
+  width: 60%;
+}
+
+/*getitdone cozy uxui suzuki subpage*/
+.heading-title {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 5%;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text-section {
+  background-color: #d0d8e1;
+  padding-bottom: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.text-on-subpage {
+  margin: 0 auto;
+  width: 50%;
+  text-align: justify;
+  width: 90%;
+  color: #334958;
+  font-weight: 500;
+  font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.github-link {
+  font-size: 15px;
+  color: #334958;
+  text-decoration: none;
+}
+
+.web-link {
+  font-size: 15px;
+  color: #334958;
+  text-decoration: none;
+}
+
+.links-div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.link-button {
+  background-color: white;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  border-radius: 10px;
+}
+
+.getitdone-video {
+  width: 100%;
+}
+
+/*suzuki subpage*/
+.main-suzuki {
+  width: 90%;
+  margin-bottom: 10%;
+}
+
+.suzuki1 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.suzuki2 {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.wrapper {
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -65%;
+  margin-right: 40%;
+}
+
+.main-text {
+  width: 25ch;
+  animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1em;
+  color: white;
+  animation-delay: 1s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.wrapper2 {
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50%;
+  margin-right: 40%;
+}
+
+.animation-text {
+  width: 25ch;
+  animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1em;
+  color: white;
+  animation-delay: 5s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-color: transparent;
+  }
+}
+
+/*Media queries*/
+
+@media only screen and (min-width: 769px) {
+  /*me*/
+  .desktop-menu-section {
+    display: block;
+  }
+  .btn {
+    display: none;
+  }
+
+  .me-image {
+    padding-bottom: 10%;
+  }
+
+  .second-page {
+    margin-top: -15%;
+  }
+
+  /*menu*/
+
+  .image_container {
+    display: none;
+  }
+
+  .desktop-menu-section {
+    position: sticky;
+  }
+
+  .menu-desktop-div {
+    display: flex;
+    background-color: transparent;
+    margin: 0 auto;
+    font-family: brown, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .menuitem {
+    color: #334958;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  /*animated text*/
+  .wrapper {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60%;
+    margin-right: 40%;
+  }
+
+  .main-text {
+    width: 25ch;
+    animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2.3em;
+    color: white;
+    animation-delay: 1s;
+  }
+
+  .wrapper2 {
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50%;
+    margin-right: 45%;
+  }
+
+  .animation-text {
+    width: 25ch;
+    animation: typing 4s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: white;
+    animation-delay: 5s;
+  }
+  /*who am i*/
+  .creating {
+    font-size: 50px;
+  }
+
+  .user-focus {
+    font-size: 40px;
+  }
+
+  .who-am-i-heading {
+    font-size: 70px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .p-text {
+    margin-top: 1%;
+  }
+
+  /*projects*/
+
+  .projects-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .getitdone-div {
+    width: 80%;
+  }
+
+  .uxui-div {
+    width: 80%;
+  }
+
+  .suzuki-div {
+    width: 120%;
+    margin-left: -30%;
+  }
+
+  .suzuki {
+    width: 100%;
+  }
+
+  /*projects*/
+
+  .projects-heading {
+    font-size: 70px;
+  }
+
+  .cozy-corner {
+    background-color: none;
+  }
+
+  .cozy-div {
+    background-color: transparent;
+  }
+
+  .link-button {
+    background-color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    border-radius: 10px;
+  }
+
+  .links-div {
+    justify-content: center;
+    justify-content: space-between;
+    width: 70%;
+  }
+
+  /* .getitdone .cozy-corner .ux-ui .suzuki:hover {
+    transform: scale(1.2);
+  } */
+
+  /*skillset*/
+  .skillset {
+    font-size: 50px;
+  }
+
+  .text-section {
+    margin-top: -5%;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+
+  .video-section {
+  }
+
+  /*contact me*/
+
+  #contact-me {
+    padding-bottom: 10%;
+  }
+  .contact-me-heading {
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 10%;
+  }
+
+  .contact-me-div {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .email-contact {
+    width: 50%;
+  }
+
+  .phone-contact {
+    width: 75%;
+  }
+
+  .linkedin-contact {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .menuitem {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  .wrapper {
+    margin-top: -55%;
+    margin-right: 40%;
+  }
+
+  .me-image {
+    margin-bottom: -10%;
+  }
+
+  .who-am-i-heading {
+    padding-bottom: 10%;
+  }
+
+  .p-text {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  /*projects*/
+  .projects-div {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .text-on-subpage {
+    width: 80%;
+  }
+
+  /*skillset*/
+  #skillset-section {
+    margin-bottom: 10%;
+  }
+
+  .skillset {
+    padding-bottom: 5%;
+  }
+
+  .logos-1 {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+  }
+  .logos-2 {
+    margin-bottom: 5%;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /*contact me*/
+  #contact-me {
+    padding: 5%;
+  }
+
+  .contact-me-heading {
+    padding-bottom: 5%;
+  }
+
+  .phone-contact {
+    width: 50%;
+  }
+
+  .linkedin-contact {
+    width: 50%;
+  }
+}
+/*
+@media only screen and (min-width: 1200px) {
+} */
+/* button hover */
+.btn {
+  background-color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: #334958;
+  text-decoration: white;
+}
+
+.project-heading:hover {
+  color: white;
+}
